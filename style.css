@@ -1,0 +1,314 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* navbar style */
+.logo {
+  float: left;
+  height: 130px;
+  width: 290px;
+}
+
+#nav {
+  float: right;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  background-color: #fcfcfce1;
+  height: 90px;
+}
+
+.navbar-nav .nav-item:hover .nav-link {
+  color: #00b39b;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: grey;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #f1f1f1
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  color: #00b39b;
+}
+
+/* Style The Dropdown Button */
+.dropbtn {
+  color: grey;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  background-color: transparent !important;
+
+}
+
+
+#cyon {
+  color: #00b39b;
+}
+
+#grey {
+  color: rgb(107, 107, 107);
+}
+
+/* the icone style */
+.flex-content {
+  display: flex;
+  justify-content: center;
+}
+
+.icone {
+  width: 5%;
+}
+
+/* for putting the title in the center*/
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+/* the paragraph style*/
+
+.paragraph {
+  display: flex;
+  justify-content: space-around;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: #747474;
+  padding-top: 70px;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.75;
+}
+
+/* the cyon and blue blocs*/
+.part3 {
+  display: flex;
+  justify-content: center;
+  height: 200px;
+}
+
+/* the cyon bloc*/
+#patient {
+  margin-right: 20px;
+  background-color: #00b39b;
+  width: 35%;
+  height: 300px;
+  border-radius: 0.75rem !important;
+}
+
+
+
+/* the blue bloc*/
+#doctor {
+  background-color: #1486bb;
+  width: 35%;
+  height: 300px;
+  border-radius: 0.75rem !important;
+}
+
+/* the title of the blue and cyon bloc*/
+.titre1 {
+  font-size: small;
+}
+
+.titre2 {
+  font-size: 25px;
+}
+
+/* svg part */
+.part_svg {
+  display: flex;
+  justify-content: space-around;
+  margin: 10% 10%;
+}
+
+
+
+
+
+.brands_logo {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  list-style-type: none;
+  font-size: 10px;
+
+}
+
+.brands_logo li {
+  fill: hsla(0, 0%, 67%, .7);
+
+}
+
+/* the healthcare part style */
+.part_healthcare {
+  background: #e5faf8;
+  background-image: linear-gradient(-45deg, rgba(0, 204, 177, .01) 5%, rgba(61, 199, 223, .1));
+  padding: 1.875em 0 .625em;
+  overflow: hidden;
+  margin: 3.125rem auto 5.5rem;
+}
+
+.part_healthcare h1 {
+  font-size: 2.125rem;
+  color: #00b39b;
+}
+
+.part_healthcare p {
+  max-width: 415px;
+  font-size: .875em;
+  font-weight: 400;
+  line-height: 1.7142857143;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: #747474;
+}
+
+.part_healthcare div {
+  margin: 3%;
+}
+
+/* the 4 blocs style*/
+.stats__item {
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .05);
+  height: 250px;
+  text-align: center;
+  padding: 15px;
+  font-size: .8125em;
+  width: 200px;
+
+}
+
+.vert-align {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+
+.vert-align>* {
+  width: 100%;
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.vert-align h3 {
+  color: #00b39b;
+}
+
+.display_healthcare {
+  display: flex;
+  margin: 2% 10%;
+}
+
+.squares {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+
+}
+
+/* the improve paragraph style */
+.title_paragraph {
+  padding-left: 20%;
+}
+
+.part_improve {
+  text-align: center;
+}
+
+.part_improve h2 {
+  font-size: 2.125rem;
+  color: #00b39b;
+}
+
+.part_improve p {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: #747474;
+}
+
+/* galerie style */
+.countries {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 3% 10%;
+  justify-content: center;
+
+}
+
+.card {
+  width: 300px;
+  height: 320px;
+  border-radius: 20px;
+  margin: 10px;
+
+
+
+}
+
+.card:hover {
+  box-shadow: 0px 5px 15px grey;
+}
+
+
+.card div {
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+
+}
+
+
+
+/* the footer style */
+
+.main-footer {
+  border-top: 1px solid #eef2f2;
+  font-size: .75em;
+  color: #ababab;
+  text-align: center;
+  padding: 1em 0;
+}
+
+.section__inner {
+  zoom: 1;
+  max-width: 1015px;
+  padding: 0 20px;
+  margin: 0 auto;
+  position: relative;
+}
